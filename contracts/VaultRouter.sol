@@ -1,6 +1,6 @@
 VaultRouter(
   address _cryoVault,
-  address _coolFlowVault,
+  address _coolVault,
   address _heatVault,
   address _tokenAddress
 )// SPDX-License-Identifier: MIT

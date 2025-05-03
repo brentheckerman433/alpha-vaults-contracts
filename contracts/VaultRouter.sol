@@ -13,7 +13,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "./CryoVault.sol";
 
 import "./HeatVault.sol";
-import "./import/CoolFlowVault.sol";
+import "./CoolFlowVault.sol";
 contract VaultRouter is Ownable {
     IERC20 public immutable token;
 

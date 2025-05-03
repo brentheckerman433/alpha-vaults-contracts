@@ -11,7 +11,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./CryoVault.sol";
 import "./CoolFlowVault.sol";
 import "./HeatVault.sol";
-
+import "./import/CoolFlowVault.sol";
 contract VaultRouter is Ownable {
     IERC20 public immutable token;
 
